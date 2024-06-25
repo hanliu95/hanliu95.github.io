@@ -34,3 +34,15 @@ Publications
 * **Han Liu**, Xiangnan He, Fuli Feng, Liqiang Nie, Rui Liu, and Hanwang Zhang. Discrete Factorization Machines for Fast Feature-based Recommendation. IJCAI, 3449-3455, 2018.
 * Changfeng Sun, **Han Liu**, Meng Liu, Zhaochun Ren, Tian Gan, and Liqiang Nie. LARA: Attribute-to-feature Adversarial Learning for New-item Recommendation. WSDM, 582-590, 2020.
 
+Community Services
+------
+* PC Member or Reviewer of **ICML2024, ACM MM 2024, WSDM 2024**
+* PC Member or Reviewer of **ACM MM 2023, WSDM 2023**
+* PC Member or Reviewer of **ACM MM 2022**
+* Invited Reviewer for **Transactions on Knowledge and Data Engineering (TKDE)**
+* Invited Reviewer for **Transactions on Information Systems (TOIS)**
+* Invited Reviewer for **Transactions on Multimedia (TMM)**
+* Invited Reviewer for **Transactions on Multimedia Computing Communications and Applications (TOMM)**
+* Invited Reviewer for **Transactions on Circuits and Systems for Video Technology (TCSVT)**
+* Invited Reviewer for **Information Sciences (INS)**
+* Invited Reviewer for **Information Processing and Management (IPM)**
