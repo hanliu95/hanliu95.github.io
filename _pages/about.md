@@ -1,13 +1,15 @@
 ---
 permalink: /
-title: "Han Liu's Homepage"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Han Liu is currently a Research Fellow with [Prof. Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang/index.html) in Department of Computer Science, City University of Hong Kong. He received his Ph.D. degree at Shandong University under the supervision of [Prof. Liqiang Nie](https://liqiangnie.github.io/). He received his B.Eng. and M.Eng. degrees from Shandong University. His research interests lie primarily in multimedia search and recommendation. I was a visiting scholar at NExT++@NUS in 2022.
+About Me
+------
+I am currently a Research Fellow with [Prof. Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang/index.html) in the [Department of Computer Science](https://www.cs.cityu.edu.hk/), [City University of Hong Kong](https://www.cityu.edu.hk/). I obtained my Ph.D. from the [School of Computer Science and Technology](http://www.cs.en.qd.sdu.edu.cn/), [Shandong University](https://en.sdu.edu.cn/), under the supervision of [Prof. Liqiang Nie](https://liqiangnie.github.io/). Before that, I received my B.Eng. and M.Eng. degrees from Shandong University. My research interests lie primarily in multimedia search and recommendation. I was a visiting scholar at [NExT++@NUS](https://www.nextcenter.org/) in 2022.
 
 Education
 ------
@@ -34,15 +36,9 @@ Publications
 * **Han Liu**, Xiangnan He, Fuli Feng, Liqiang Nie, Rui Liu, and Hanwang Zhang. Discrete Factorization Machines for Fast Feature-based Recommendation. IJCAI, 3449-3455, 2018.
 * Changfeng Sun, **Han Liu**, Meng Liu, Zhaochun Ren, Tian Gan, and Liqiang Nie. LARA: Attribute-to-feature Adversarial Learning for New-item Recommendation. WSDM, 582-590, 2020.
 
-Community Services
+Professional Services
 ------
 * PC Member or Reviewer of **ICML2024, ACM MM 2024, WSDM 2024**
 * PC Member or Reviewer of **ACM MM 2023, WSDM 2023**
 * PC Member or Reviewer of **ACM MM 2022**
-* Invited Reviewer for **Transactions on Knowledge and Data Engineering (TKDE)**
-* Invited Reviewer for **Transactions on Information Systems (TOIS)**
-* Invited Reviewer for **Transactions on Multimedia (TMM)**
-* Invited Reviewer for **Transactions on Multimedia Computing Communications and Applications (TOMM)**
-* Invited Reviewer for **Transactions on Circuits and Systems for Video Technology (TCSVT)**
-* Invited Reviewer for **Information Sciences (INS)**
-* Invited Reviewer for **Information Processing and Management (IPM)**
+* Invited Reviewer for **TKDE, TOIS, TMM, TOMM, TCSVT, IPM, Information Sciences**
