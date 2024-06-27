@@ -42,3 +42,10 @@ Professional Services
 * PC Member or Reviewer of **ACM MM 2023, WSDM 2023**
 * PC Member or Reviewer of **ACM MM 2022**
 * Invited Reviewer for **TKDE, TOIS, TMM, TOMM, TCSVT, IPM, Information Sciences**
+
+Awards
+------
+* **Dean Scholarship (PhD Student)**
+  * School of Computer Science and Technology, Shandong University. (Oct. 2022)
+* **CSC Scholarship (Visiting PhD Student)**
+  * China Scholarship Council. (Jul. 2021)
