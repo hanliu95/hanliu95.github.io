@@ -26,7 +26,7 @@ Experience
 ------
 * **National University of Singapore, Singapore. (Jan. 2022 - Jan. 2023)**
   * Research Intern in NExT++, School of Computing
-  * Supervisor: Prof. Tat-Seng Chua
+  * Supervisor: [Prof. Tat-Seng Chua](https://www.chuatatseng.com/)
 
 Publications
 ------
