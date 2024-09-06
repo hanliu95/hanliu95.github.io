@@ -38,7 +38,7 @@ Publications
 
 Professional Services
 ------
-* PC Member or Reviewer of **ICML2024, ACM MM 2024, WSDM 2024**
+* PC Member or Reviewer of **ICML 2024, ACM MM 2024, WSDM 2024**
 * PC Member or Reviewer of **ACM MM 2023, WSDM 2023**
 * PC Member or Reviewer of **ACM MM 2022**
 * Invited Reviewer for **TKDE, TOIS, TMM, TOMM, TCSVT, IPM, Information Sciences**
