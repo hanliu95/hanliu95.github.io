@@ -1,0 +1,108 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% include base_path %}
+
+<style>
+.publication-item {
+  margin-bottom: 2.2rem;
+}
+
+.publication-title {
+  margin: 0 0 0.8rem;
+  font-size: 1.35em;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.publication-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.publication-title a:hover {
+  color: #268bd2;
+}
+
+.publication-citation {
+  margin-bottom: 0.35rem;
+  font-size: 1.05em;
+  line-height: 1.55;
+  color: #555;
+}
+
+.publication-links a {
+  display: inline-block;
+  margin-right: 0.55rem;
+  color: #268bd2;
+  font-size: 1.15em;
+  text-decoration: none;
+}
+
+.publication-links a:hover {
+  color: #155a8a;
+}
+</style>
+
+{% assign sorted_publications = site.publications | sort: "date" | reverse %}
+
+{% for category in site.publication_category %}
+  {% assign category_name = category[0] %}
+  {% assign category_publications = sorted_publications
+    | where: "category", category_name %}
+
+  {% if category_publications.size > 0 %}
+    <h2>{{ category[1].title }}</h2>
+    <hr>
+
+    {% for post in category_publications %}
+      <article class="publication-item">
+
+        <h3 class="publication-title">
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+          </a>
+        </h3>
+
+        {% if post.citation %}
+          <div class="publication-citation">
+            {{ post.citation }}
+          </div>
+        {% endif %}
+
+        <div class="publication-links">
+          <a href="{{ post.url | relative_url }}"
+             title="Publication details"
+             aria-label="Publication details">
+            <i class="fas fa-link" aria-hidden="true"></i>
+          </a>
+
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}"
+               title="PDF"
+               aria-label="Download PDF"
+               target="_blank"
+               rel="noopener noreferrer">
+              <i class="fas fa-file-pdf" aria-hidden="true"></i>
+            </a>
+          {% endif %}
+
+          {% if post.codeurl %}
+            <a href="{{ post.codeurl }}"
+               title="Code"
+               aria-label="Source code"
+               target="_blank"
+               rel="noopener noreferrer">
+              <i class="fas fa-code" aria-hidden="true"></i>
+            </a>
+          {% endif %}
+        </div>
+
+      </article>
+    {% endfor %}
+  {% endif %}
+{% endfor %}
