@@ -1,3 +1,10 @@
+---
+layout: archive
+title: "Awards"
+permalink: /awards/
+author_profile: true
+---
+
 - **Dean Scholarship (PhD Student)**
   - School of Computer Science and Technology, Shandong University (Oct. 2022)
 
