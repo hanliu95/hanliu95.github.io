@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Han Liu's Homepage"
+title                    : "Han Liu"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Han Liu"
   pronouns         : # example: "she/her"  
-  bio              : "Research Fellow"
+  bio              : "Postdoctoral Fellow"
   location         : "Hong Kong"
   employer         : "City University of Hong Kong"
   uri              : # URL
