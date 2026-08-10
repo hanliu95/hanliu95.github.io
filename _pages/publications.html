@@ -1,10 +1,83 @@
 ---
 layout: archive
-title: "Publications Test"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-<h1 style="color: red;">THIS IS THE NEW PUBLICATIONS PAGE</h1>
+<style>
+.pub-item {
+  margin-bottom: 2.2rem;
+}
 
-<p>If you can see this sentence, the page is working.</p>
+.pub-title {
+  margin: 0 0 0.7rem 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.pub-title a {
+  color: #494e52;
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  color: #268bd2;
+}
+
+.pub-citation {
+  margin-bottom: 0.4rem;
+  color: #555;
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
+.pub-links a {
+  display: inline-block;
+  margin-right: 0.55rem;
+  color: #268bd2;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+</style>
+
+{% for post in site.publications reversed %}
+
+<div class="pub-item">
+
+  <h2 class="pub-title">
+    <a href="{{ post.url }}">
+      {{ post.title }}
+    </a>
+  </h2>
+
+  {% if post.citation %}
+  <div class="pub-citation">
+    {{ post.citation }}
+  </div>
+  {% endif %}
+
+  <div class="pub-links">
+
+    <a href="{{ post.url }}" title="Details">
+      <i class="fas fa-link"></i>
+    </a>
+
+    {% if post.paperurl %}
+    <a href="{{ post.paperurl }}" target="_blank" title="PDF">
+      <i class="fas fa-file-pdf"></i>
+    </a>
+    {% endif %}
+
+    {% if post.codeurl %}
+    <a href="{{ post.codeurl }}" target="_blank" title="Code">
+      <i class="fas fa-code"></i>
+    </a>
+    {% endif %}
+
+  </div>
+
+</div>
+
+{% endfor %}
