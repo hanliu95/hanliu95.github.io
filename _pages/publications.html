@@ -5,51 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 
-<style>
-.pub-item {
-  margin-bottom: 2.2rem;
-}
+{% assign sorted_publications = site.publications | sort: "sort_key" | reverse %}
 
-.pub-title {
-  margin: 0 0 0.7rem 0;
-  font-size: 1.35rem;
-  font-weight: 700;
-  line-height: 1.35;
-}
-
-.pub-title a {
-  color: #494e52;
-  text-decoration: none;
-}
-
-.pub-title a:hover {
-  color: #268bd2;
-}
-
-.pub-citation {
-  margin-bottom: 0.4rem;
-  color: #555;
-  font-size: 1.05rem;
-  line-height: 1.55;
-}
-
-.pub-links a {
-  display: inline-block;
-  margin-right: 0.55rem;
-  color: #268bd2;
-  font-size: 1.2rem;
-  text-decoration: none;
-}
-</style>
-
-{% for post in site.publications reversed %}
+{% for post in sorted_publications %}
 
 <div class="pub-item">
 
   <h2 class="pub-title">
-    <a href="{{ post.url }}">
-      {{ post.title }}
-    </a>
+    {{ post.title }}
   </h2>
 
   {% if post.citation %}
